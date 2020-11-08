@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Template - Google Custom Search</title>
+<meta content=' This search result is powered by Google Custom Search that enables you to create a search engine for your website, your blog, or an application that run on your mobile, such as android device.  ' name='description'/>
+<meta content=' This search result is powered by Google Custom Search that enables you to create a search engine for your website, your blog, or an application that run on your mobile, such as android device.  ' property='og:description'/>
+<style>
+.blak-postmetadataheader { display:none !important;}
+.blak-postcontent, .blak-postcontent li, .blak-postcontent table, .blak-postcontent a, .blak-postcontent a:link, .blak-postcontent a:visited, .blak-postcontent a.visited, .blak-postcontent a:hover, .blak-postcontent a.hovered { padding: 0 !important }
+a.gsc-trailing-more-results:link { color: #444444; }
+button.gsc-search-button.gsc-search-button-v2 { background-color: #ff841f; color: #fff; border: 1px solid #ff841f; border-radius: 0 8px 8px 0; font-weight: bold; height: 30.9px; /* width: 41px; */ /* box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5); */ /* clip-path: inset(-10px -10px -10px -2px); */ margin-top: 0px !important; }
+.cse .gsc-cursor-box, .gsc-cursor-box { padding: 0px; }
+.cse .gsc-webResult.gsc-result:hover, .gsc-webResult.gsc-result:hover, .gsc-webResult.gsc-result.gsc-promotion:hover, .gsc-results .gsc-imageResult-classic:hover, .gsc-results .gsc-imageResult-column:hover { border-left: none; border-color: unset; border-bottom: none; }
+.cse input.gsc-input, input.gsc-input { vertical-align: sub; font-family: inherit; font-size: 16px; padding: 5px !important; }
+.cse table.gsc-search-box td.gsc-input, table.gsc-search-box td.gsc-input { padding-right: 0; }
+.gsc-cursor-box { border-color: #FFFFFF; }
+.gsc-cursor-page { color: #444444; }
+.gsc-input-box { margin-top: 0px !important; height: 29px; /* box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5); */ /* clip-path: inset(-10px -1px -10px -10px); */ -webkit-box-flex: 1; width: 100%; position: relative; padding: 0 5px 0 10px; border: 1px solid #d9d9d9; display: -webkit-box; background: white; border-radius: 8px 0 0 8px; }
+.gsc-control-cse { font-family: Arial, sans-serif; border-color: #FFFFFF; background-color: #FFFFFF; }
+.gsc-control-cse th, .gsc-control-cse td { vertical-align: middle; }
+.gsc-results .gsc-cursor-box { text-align: center !important; font-size: 24px; margin: 1px; }
+.gsc-results .gsc-cursor-box .gsc-cursor-page { padding: 0px 4px 0 4px; }
+.gsc-results .gsc-cursor-page { border-color: #777777; background-color: #FFFFFF; }
+.gsc-results .gsc-cursor-page.gsc-cursor-current-page { border-color: #333333; background-color: #333333; }
+.gsc-results .gsc-cursor-page.gsc-cursor-current-page { color: #ff811a; background-color: unset !important; }
+.gsc-search-box .gsc-input>input:hover, .gsc-input-box-hover { box-shadow: none; }
+.gsc-search-box .gsc-input>input:focus, .gsc-input-box-focus { box-shadow: none; }
+.gsc-search-box .gsc-input>input:focus, .gsc-input-box-focus .gsc-input-box-hover { box-shadow: none; }
+.gsc-tabHeader.gsc-tabhInactive { border-color: #777777; background-color: #777777; }
+.gsc-tabHeader.gsc-tabhActive { border-color: #333333; background-color: #333333; }
+.gsc-tabsArea { border-color: #333333; }
+.gsc-webResult .gsc-result { border-color: #FFFFFF; background-color: #FFFFFF; }
+.gsc-webResult .gsc-result { margin: 0; padding: .5em 0; border-bottom: 0; }
+.gsc-webResult.gsc-result:hover { border-color: #000000; background-color: #FFFFFF; }
+.gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b { text-decoration: none; }
+.gs-webResult.gs-result { border-bottom: 1px dashed #00000017; }
+.gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b { color: #1a0dab; }
+.gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b { color: #444444; }
+.gs-webResult.gs-result a.gs-title:hover,
+.gs-webResult.gs-result a.gs-title:hover b { color: #444444; text-decoration: underline; }
+.gs-webResult.gs-result a.gs-title:active, .gs-webResult.gs-result a.gs-title:active b { color: #777777; }
+.gs-webResult.gs-result .gs-snippet { color: #333333; padding-left: 5px; text-align: justify; }
+.gs-webResult.gs-result .gs-visibleUrl { color: #000000; }
+.gs-webResult.gs-result .gs-visibleUrl-short { color: #006621; }
+.gs-promotion.gs-result { border-color: #CCCCCC; background-color: #E6E6E6; }
+.gs-promotion.gs-result a.gs-title:link { color: #0000CC; }
+.gs-promotion.gs-result a.gs-title:visited { color: #0000CC; }
+.gs-promotion.gs-result a.gs-title:hover { color: #444444; }
+.gs-promotion.gs-result a.gs-title:active { color: #00CC00; }
+.gs-promotion.gs-result .gs-snippet { color: #333333; }
+.gs-promotion.gs-result .gs-visibleUrl, .gs-promotion.gs-result .gs-visibleUrl-short { color: #00CC00; }
+.gs-result .gs-title, .gs-result .gs-title * { color: #0000cc; text-decoration: none; }
+.gs-result img.gs-image, .gs-result img.gs-promotion-image { vertical-align: middle; border: 0; width: 60px; height: 60px; }
+.gs-web-image-box img.gs-image, .gs-promotion-image-box img.gs-promotion-image { border: 0; }
+.gsce_load { font-size: 26px; font-weight: 300; color: #777; text-align: center; }
+.gsce_load.hidden { display: none; }
+.gscb_a { vertical-align: sub; }
+.gsst_b { padding: 0px 20px 0px 10px; }
+form.gsc-search-box { box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); border-radius: 8px; font-size: 13px; margin-top: 0; margin-right: 0; margin-bottom: 4px; margin-left: 0; width: 100%; }
+table.gsc-search-box { border-style: none; border-width: 0; border-spacing: 0 0; width: 100%; margin: 0; }
+table.gsc-search-box td { padding: 0px 0 0px 0; vertical-align: middle; }
+</style>
+
+</head>
+
+<body>
+<script src="http://cse.google.com/adsense/search/async-ads.js"></script>
+<script type="text/javascript">
+ (function() {
+    var cx = 'partner-pub-7683697174975691:48lui2o4huz';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    gcse.onreadystatechange = gcse.onload = function() {
+    var g = document.querySelector( '.gsce_load' );
+    var i = document.querySelector( '.gsce_info' );
+    if( g.classList )
+        g.classList.add( 'hidden' ); // IE 10+
+    else
+        g.className += ' ' + 'hidden'; // IE 8-9
+    }; 
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+<gcse:search></gcse:search>
+
+<br />
+<div class="gsce_load" style="padding-top:5px;">
+Loading Result...</div>
+
+</body>
+
+</html>

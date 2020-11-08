@@ -1,0 +1,42 @@
+function showQuotation(){
+var Quotation=new Array() 
+Quotation[0] = "Setiap Orang Dilahirkan Bagaikan Kertas Putih Yang Belum Ternoda. Pintar & Bodoh Adalah Ulah Kita ,Keluarga Dan Lingkungan Dalam Menorehkan Tinta Pada Kertas Tersebut. Tapi, Jangan Salahkan Mereka Jika Kamu Merasa Tertinggal. Salahkan Dirimu Yang Tidak Mau Mencari Jalan Keluar..";
+Quotation[1] = "Manusia Dapat Mengubah Kehidupannya Dengan Mengubah Sikap Pikiran Mereka.";
+Quotation[2] = "Kehidupanku Berubah Ketika Aku Mulai Percaya Pada Diriku.";
+Quotation[3] = "Kesalahan Terbesar Yang Kita Lakukan Dalam Hidup ini Adalah Selalu Takut Melakukan Kesalahan.";
+Quotation[4] = "Siapa bilang untuk menjadi kaya dan sejahtera harus punya modal yang banyak? Kalau saja Anda cermat melihat peluang yang ada, ada banyak celah yang bisa menjadi jalan untuk meraih kesejahteraan yang diinginkan. Yang dibutuhkan cuma kemauan untuk menjadi sukses.";
+Quotation[5] = "Ilmu tanpa agama sama dengan lumpuh, agama tanpa sains sama dengan buta. - Albert Einstein";
+Quotation[6] = "Risiko terbesar adalah tidak melakukan sesuatu.";
+Quotation[7] = "Jika kamu mengubah pola fikirmu, maka kamu akan mendapatkan pengelihatan yang berbeda.";
+Quotation[8] = "Setiap masalah pasti ada jalan keluarnya.";
+Quotation[9] = "Kesuskesan tidak terjadi begitu saja, ia butuh mimpi, visi, dan aksi untuk mendapatkannya.";
+Quotation[10] = "Apa pun yang orang katakan tentang dirimu, jika itu untuk kebaikan maka ikutilah. Jika itu merupakan ejekan, maka buanglah - Blak.";
+Quotation[11] = "Manusia harus mengikuti perkembangan teknologi atau ia akan mati - Blak.";
+Quotation[12] = " Setiap jiwa akan merasakan kematian \"(QS. Al-Anbiya (21) : 35) maka dari itu kita sebagai manusia diwajibkan untuk memanfaatkan waktu sebaik mungkin.";
+Quotation [13] = "Every person was born Like a White Paper That is unblemished. Smart & Stupid was the work of Us, Family and Environment in the incised Such Ink On Paper. But Do not Blame Those If You're Feeling Left. Blame Yourself That Will not Find the Way Exiting .. ";
+Quotation [14] = "Man Can Change His life if they are Changing Attitude of Mind.";
+Quotation [15] = "My Life Changed When I Begin Believe In Me.";
+Quotation [16] = "Biggest Mistakes That We Do In Life Is Always Afraid Make Mistakes.";
+Quotation [17] = "Who told you to be rich and prosper must have a lot of capital? If you carefully look at the opportunities that exist, there are many loopholes that could be a way to achieve the desired prosperity. All it takes only a willingness to be successful." ;
+Quotation [18] = "Science without religion is a lame, religion without science is blind. - Albert Einstein";
+Quotation [19] = "The biggest risk is not doing anything.";
+Quotation [20] = "If you change the way you think, then you will get a different vision.";
+Quotation [21] = "Every problem is certainly no solution.";
+Quotation [22] = "to successful not just happen, he needs a dream, vision, and action to get it.";
+Quotation [23] = "Whatever people say about you, if it's for good then follow. If it is a mockery, then dispose - Blak.";
+Quotation [24] = "Man must keep up with technology or he will die - Blak.";
+Quotation [25] = "Every soul will taste of death \" (Surat al-Anbiya (21): 35) and therefore we as humans are obliged to make use of time as possible.";
+Quotation [26] = "Think ABCD! Life is from [B] to [D], it mean from BORN to DIE. Between is [C] for CHOICE. Our life is a matter of Choise. Live well and it will never go WRONG!";
+Quotation [27] = "Patience with Family is LOVE. Patience with Other is RESPECT. Patience with Self is CONFIDENCE. Patience with ALLAH is FAITH";
+Quotation [28] = "ONLY I CAN CHANGE MY LIFE. NO ONE CAN DO IT FOR ME!";
+Quotation [29] = "The Two Most Importance Day in Your Life are The Day You Are BORN and The Day You Find Out WHY -Mark Twain";
+Quotation [30] = "Jangan pernah Menyerah. Kalau baik itu bagus, kalau buruk itu adalah pengalaman, makin banyak pengalaman makin baik hidupmu!";
+Quotation [31] = "Kesulitan dalam hidup tidah akan menghancurkanmu, melainkan menyadarkan kamu untuk memunculkan potensi yang ada pada dirimu.";
+Quotation [32] = "Jangan perdulikan seberapa baik dan buruknya hidupmu. Setiap hari ketika kamu bangun Bersukurlah, karena masih ada seseorang disana yang lebih buruk dari nasibmu berjuang untuk dapat terus hidup.";
+Quotation [33] = "Ketika kamu dihadapkan pada situasi yang sulit, jangan katakan \"Kenapa aku?\" tapi katakan \"Berikan kepadaku!\".";
+Quotation [34] = "Jangan katakan itu MIMPI tapi katakan itu RENCANA!";
+Quotation [35] = "Telur Ayam, Jika dipecahkan dari luar maka Kehidupan Berhenti. Jika dipecahkan dari dalam maka Kehidupan Di Mulai. Sesuatu yang Besar terjadi dari dalam, jadi Mulailah Perubahan Dari Diri Sendiri!";
+var Q = Quotation.length;
+var whichQuotation=Math.round(Math.random()*(Q-1));
+document.write(Quotation[whichQuotation]);
+}
