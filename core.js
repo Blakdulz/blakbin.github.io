@@ -302,7 +302,7 @@ function(t) {
                                     l = (C || k != h) && (C || k != r - o.tick.outerHeight()) ? s + k - o.flea.offset().top - o.paddingTop <= e.additionalMarginTop ? "static" : "absolute" : "fixed"
                                 }
                                 if ("fixed" == l) {
-									document.getElementsByClassName("blakbin-content-item.main").style.width = "calc(100% - 310px)";
+									document.getElementsByClassName("blakbin-content-item").style.width = "calc(100% - 310px)";
                                     var T = t(document).scrollLeft();
                                     o.tick.css({
                                         position: "fixed",
