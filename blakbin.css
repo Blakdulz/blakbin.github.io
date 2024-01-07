@@ -18,6 +18,17 @@ body,html {
     height: 100%
 }
 
+.loading-gear {
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:9999;
+	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"%3E%3Ccircle cx="50" cy="50" r="32" stroke-width="8" stroke="%23e15b64" stroke-dasharray="50.26548245743669 50.26548245743669" fill="none" stroke-linecap="round"%3E%3CanimateTransform attributeName="transform" type="rotate" dur="1s" repeatCount="indefinite" keyTimes="0;1" values="0 50 50;360 50 50"%3E%3C/animateTransform%3E%3C/circle%3E%3Ccircle cx="50" cy="50" r="23" stroke-width="8" stroke="%23f8b26a" stroke-dasharray="36.12831551628262 36.12831551628262" stroke-dashoffset="36.12831551628262" fill="none" stroke-linecap="round"%3E%3CanimateTransform attributeName="transform" type="rotate" dur="1s" repeatCount="indefinite" keyTimes="0;1" values="0 50 50;-360 50 50"%3E%3C/animateTransform%3E%3C/circle%3E%3C/svg%3E') center no-repeat #fff
+
+}
+
 .blog-pager {
     box-sizing: unset;
     border-top: 1px #e0e0e0 solid;
@@ -2342,6 +2353,34 @@ html a.plus:hover {
     height: calc(100vh - 96px)
 }
 
+.breadcrumb-list {
+	margin:0;
+	padding:0 10px
+}
+
+.breadcrumb-wrapper {
+	background:#fff;
+	display:inline-block;width:100%
+}
+
+.breadcrumb-wrapper li {
+	display:inline
+}
+
+.breadcrumb-wrapper ul {
+	margin:0px
+}
+
+.breadcrumb-wrapper a {
+	color:rgba(0,0,0,.54);
+	transition:color .2s;
+	font-size:14px
+}
+
+.breadcrumb-wrapper a:hover {
+	color:rgba(0,0,0,.87)
+}
+
 @media screen and (max-width:1024px) {
     body {
         min-width: 320px
@@ -2443,4 +2482,8 @@ html a.plus:hover {
     .query-zero {
         height: calc(100vh - 96px)
     }
+	
+	.breadcrumb-wrapper {
+		display:none
+	}
 }
