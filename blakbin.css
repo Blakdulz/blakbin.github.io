@@ -122,13 +122,13 @@ body,html {
     background: #fff;
     float: left;
     order: 2;
-    width: calc(100% - 310px)
+    width: calc(100% - 320px)
 }
 
 .blakbin-content-item.side {
     float: left;
     margin: 0 auto;
-    width: 310px
+    width: 320px
 }
 
 #blak-main {
