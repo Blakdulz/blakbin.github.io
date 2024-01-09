@@ -184,7 +184,7 @@ a.browse-button {
 }
 
 .blakbin-label-title {
-    margin: 0 10px
+    margin: 40px 10px 10px;
 }
 
 .blakbin-landing-row-item:nth-child(2),.blakbin-landing-row-item:nth-child(4) {
@@ -208,7 +208,12 @@ a.browse-button {
 
 .second,.third {
     flex-grow: .5;
-    margin: 0 0 0 40px
+    margin: 80px 0 10px;
+}
+
+.popular-posts a {
+    font: 600 1.5em/36px Google Sans,sans-serif;
+    color: #2f4f4f;
 }
 
 .blakbin-show-all-post a {
